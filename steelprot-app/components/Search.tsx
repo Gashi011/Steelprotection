@@ -1,11 +1,11 @@
-// Search.tsx
-
 import Link from "next/link";
+import { IoMenuSharp } from "react-icons/io5";
 
 const Search = () => {
   return (
+
     <Link href="/about">
-      <button>Click here to go to About Page</button>
+      <button><IoMenuSharp /></button>
     </Link>
   );
 };

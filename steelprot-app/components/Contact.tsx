@@ -7,7 +7,7 @@ import ContactForms from "./ContactForms";
 const Contact = () => {
   return (
     <div>
-      <div className="flex justify-center pt-14 text-7xl font-bold">
+      <div className="flex justify-center pt-14 text-5xl md:text-7xl font-bold">
         Kontakt
       </div>
       <div className="flex flex-col lg:flex-row gap-10 pt-20 lg:ps-20 xl:pl-40 ">

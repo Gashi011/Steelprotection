@@ -3,7 +3,7 @@ import React from "react";
 const ContactForms = () => {
   return (
     <div className="flex flex-col justify-between gap-20 top-10">
-      <div className="text-center pt-10 font-bold text-5xl">
+      <div className="text-center pt-10 font-bold text-4xl md:text-5xl ">
         Kontaktirajte nas
       </div>
       <div className="flex flex-col text-xl ps-10 pe-10 gap-10">
