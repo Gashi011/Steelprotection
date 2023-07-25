@@ -33,14 +33,14 @@ const HamburgerMenu = () => {
         )}
       </div>
       {isOpen && (
-        <div className="mt-2 absolute right-10 flex flex-col gap-10 text-xl">
-          <div className="text-neutral-500 py-2"> {/* Use div instead of anchor (<a>) */}
+        <div className="mt-2 absolute right-10 pt-14 flex flex-col gap-10 text-xl">
+          <div className="text-neutral-500 py-2 hover:text-neutral-950"> {/* Use div instead of anchor (<a>) */}
+            <Link href="/">Home</Link>
+          </div>
+          <div className="text-neutral-500 py-2 hover:text-neutral-950"> {/* Use div instead of anchor (<a>) */}
             <Link href="/about">About</Link>
           </div>
-          <div className="text-neutral-500 py-2"> {/* Use div instead of anchor (<a>) */}
-            Home
-          </div>
-          <div className="text-neutral-500 py-2"> {/* Use div instead of anchor (<a>) */}
+          <div className="text-neutral-500 py-2 hover:text-neutral-950"> {/* Use div instead of anchor (<a>) */}
             Contact
           </div>
         </div>
