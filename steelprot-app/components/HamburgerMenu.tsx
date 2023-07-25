@@ -34,11 +34,15 @@ const HamburgerMenu = () => {
       </div>
       {isOpen && (
         <div className="mt-2 absolute right-10 flex flex-col gap-10 text-xl">
-          <Link href="/about">
-            About
-          </Link>
-          <div style={{ outline: "none" }}>Home</div>
-          <div style={{ outline: "none" }}>Contact</div>
+          <div className="text-neutral-500 py-2"> {/* Use div instead of anchor (<a>) */}
+            <Link href="/about">About</Link>
+          </div>
+          <div className="text-neutral-500 py-2"> {/* Use div instead of anchor (<a>) */}
+            Home
+          </div>
+          <div className="text-neutral-500 py-2"> {/* Use div instead of anchor (<a>) */}
+            Contact
+          </div>
         </div>
       )}
     </div>
