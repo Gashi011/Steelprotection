@@ -1,7 +1,10 @@
 'use client'
 import Container from "@/components/Container";
+import Logo from "@/components/Logo";
 import BuildingImage from "@/components/BuildingImage";
+import Image from "next/image";
 import BackgroundImage from "@/components/BackgroundImage";
+import Loader from "@/components/Loader";
 import Contact from "@/components/Contact";
 
 export default function About() {
@@ -28,10 +31,10 @@ export default function About() {
         </div>
         <BackgroundImage>
           <div className="sm:mx-auto">
-            <div className="text-neutral-50 text-4xl xl:text-5xl font-bold text-center xl:text-left xl:ps-4">
+            <div className="text-neutral-50 text-4xl xl:text-5xl font-bold text-center xl:text-left">
               VREDNOSTI KOJE NUDIMO:
             </div>
-            <div className="text-neutral-50 text-xl xl:text-2xl text-center lg:text-left xl:ps-4" >
+            <div className="text-neutral-50 text-xl xl:text-2xl text-center lg:text-left" >
               <br />
               1. Ekološki odobreno - materijal neškodljiv za okoliš <br />
               2. Dokazana kvaliteta - dugogodišnja građevinarska praksa <br />
@@ -41,10 +44,8 @@ export default function About() {
           <img alt="radnik" src="/images/radnik.jpg" className="z-10 pe-0 xl:pe-10  mx-auto  max-h-[500px]">
           </img>
         </BackgroundImage>
-        <div className="text-center text-6xl font-bold p-20">
-          Kontakt
-        </div>
         <Contact />
+        
     </Container>
       
   )
