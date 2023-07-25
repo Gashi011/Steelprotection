@@ -23,7 +23,7 @@ const Contact = () => {
               <FaLocationDot />
             </p>
             <p className="text-black text-lg font-bold">
-              Ulica Glave Vujadina 26
+              Ulica TaITa broj 2, Beograd
             </p>
           </div>
           <div className="w-full sm:w-2/3 mx-auto justify-center lg:w-[500px] h-40 bg-neutral-50 flex flex-col items-center shadow-inner gap-2">

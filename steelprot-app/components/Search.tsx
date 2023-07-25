@@ -1,11 +1,13 @@
 import Link from "next/link";
-import { IoMenuSharp } from "react-icons/io5";
+
+import HamburgerMenu from "./HamburgerMenu";
 
 const Search = () => {
   return (
 
     <Link href="/about">
-      <button><IoMenuSharp /></button>
+      <button className="md:hidden w-6 h-6"><HamburgerMenu /></button>
+      
     </Link>
   );
 };
