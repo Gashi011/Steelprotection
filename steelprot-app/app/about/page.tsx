@@ -1,11 +1,8 @@
 'use client'
 import Container from "@/components/Container";
-import Logo from "@/components/Logo";
 import BuildingImage from "@/components/BuildingImage";
-import Image from "next/image";
 import BackgroundImage from "@/components/BackgroundImage";
-import Loader from "@/components/Loader";
-import Contact from "@/components/Contact";
+import Kontakt from "@/components/Kontakt";
 
 export default function About() {
   return (
@@ -44,7 +41,7 @@ export default function About() {
           <img alt="radnik" src="/images/radnik.jpg" className="z-10 pe-0 xl:pe-10  mx-auto  max-h-[500px]">
           </img>
         </BackgroundImage>
-        <Contact />
+        <Kontakt />
         
     </Container>
       

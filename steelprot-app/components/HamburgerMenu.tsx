@@ -33,15 +33,15 @@ const HamburgerMenu = () => {
         )}
       </div>
       {isOpen && (
-        <div className="mt-2 absolute right-10 pt-14 flex flex-col gap-10 text-xl">
-          <div className="text-neutral-500 py-2 hover:text-neutral-950"> {/* Use div instead of anchor (<a>) */}
+        <div className="menu-container bg-white w-3/5 absolute right-10 pt-14 flex flex-col gap-10 text-xl rounded-md shadow-md transition-opacity duration-1000">
+          <div className="menu-item">
             <Link href="/">Home</Link>
           </div>
-          <div className="text-neutral-500 py-2 hover:text-neutral-950"> {/* Use div instead of anchor (<a>) */}
+          <div className="menu-item">
             <Link href="/about">About</Link>
           </div>
-          <div className="text-neutral-500 py-2 hover:text-neutral-950"> {/* Use div instead of anchor (<a>) */}
-            Contact
+          <div className="menu-item">
+            <Link href="/contact">Contact</Link>
           </div>
         </div>
       )}

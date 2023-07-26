@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2 text-2xl font-bold">
-              Podaci o tvrtci
+              Podaci o fabrici
             </div>
             <div className="flex flex-col gap-2">
               <p>

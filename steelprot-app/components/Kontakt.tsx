@@ -4,7 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa";
 import ContactForms from "./ContactForms";
 
-const Contact = () => {
+const Kontact = () => {
   return (
     <div>
       <div className="flex justify-center pt-14 text-5xl md:text-7xl font-bold">
@@ -43,4 +43,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Kontact;
