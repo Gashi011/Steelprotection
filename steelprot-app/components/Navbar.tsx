@@ -21,13 +21,13 @@ const Navbar = () => {
               <a href="/about">O nama</a>
             </div>
             <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
-              <a href="/">Proizvodi</a>
+              <a href="/products">Proizvodi</a>
             </div>
             <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
-              <a href="/">Projekti</a>
+              <a href="/projects">Projekti</a>
             </div>
             <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
-              <a href="/">Novosti</a>
+              <a href="/news">Novosti</a>
             </div>
             <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
               <a href="/contact">Kontakt</a>

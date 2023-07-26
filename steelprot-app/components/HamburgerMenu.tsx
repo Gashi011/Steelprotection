@@ -25,13 +25,13 @@ const Navbar = () => {
           <a href="/about" className="text-xl hover:text-cyan-500 duration-500">O nama</a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-xl hover:text-cyan-500 duration-500">Proizvodi</a>
+          <a href="/products" className="text-xl hover:text-cyan-500 duration-500">Proizvodi</a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-xl hover:text-cyan-500 duration-500">Projekti</a>
+          <a href="/projects" className="text-xl hover:text-cyan-500 duration-500">Projekti</a>
         </li>
         <li className="mx-4 my-6 md:my-0">
-          <a href="#" className="text-xl hover:text-cyan-500 duration-500">Novosti</a>
+          <a href="/news" className="text-xl hover:text-cyan-500 duration-500">Novosti</a>
         </li>
         <li className="mx-4 my-6 md:my-0">
           <a href="/contact" className="text-xl hover:text-cyan-500 duration-500">Kontakt</a>
