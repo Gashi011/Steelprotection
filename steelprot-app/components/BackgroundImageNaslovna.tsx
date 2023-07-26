@@ -7,7 +7,7 @@ import React from "react";
 const BackgroundImage: React.FC<BackgroundImageProps> = ({ children }) => {
   return (
     <div
-      className="flex flex-col justify-start items-center h-[1000px] sm:w-full bg-cover text-center text-blue-400 z-40"
+      className="flex flex-col justify-start items-center h-[1500px] sm:w-full bg-cover text-center text-blue-400 z-40"
       style={{ backgroundImage: "url('/images/background.jpg')" }}
     >
       {children}
