@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-white w-full h-200 p-20"></div>
+      <div className="w-full h-0.5 bg-gray-300 mx-auto mb-4"></div>
       <div className="flex flex-col gap-10 pt-20 shadow-inner">
         <div className="flex flex-col lg:flex-row text-center justify-between lg:text-left items-center xl:items-start gap-10 xl:px-32">
           <div className="flex flex-col  items-center">
