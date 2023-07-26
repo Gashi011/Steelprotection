@@ -1,24 +1,45 @@
-'use client'
+"use client";
 
 import Container from "./Container";
 import Logo from "./Logo";
 import Search from "./Search";
 
 const Navbar = () => {
-    return(
-        
-        <div id="navbar" className="fixed w-full max-h-32 bg-white  shadow-md z-20">
-            <div className="p-6 border-b-2">
-                <Container>
-                    <div className="flex flex-row items-center justify-between gap-2 md:gap-0 xl:px-14 md:px-10 sm:px-5 px-5">
-                        <Logo />
-                        <Search />
-                    </div>
-                </Container>
-                
+  return (
+    <div id="navbar" className="fixed w-full max-h-32 bg-white  shadow-md z-20">
+      <div className="p-6 border-b-2">
+        <Container>
+          <div className="flex flex-row items-center justify-between gap-2 md:gap-0 xl:px-14 md:px-10  px-5">
+            <Logo />
+
+            <div></div>
+            <div></div>
+            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+              <a href="/">Naslovna</a>
             </div>
-        </div>
-    )
-}
+            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+              <a href="/about">O nama</a>
+            </div>
+            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+              <a href="/">Proizvodi</a>
+            </div>
+            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+              <a href="/">Projekti</a>
+            </div>
+            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+              <a href="/">Novosti</a>
+            </div>
+            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+              <a href="/contact">Kontakt</a>
+            </div>
+            <div className="pe-10">
+              <Search />
+            </div>
+          </div>
+        </Container>
+      </div>
+    </div>
+  );
+};
 
 export default Navbar;

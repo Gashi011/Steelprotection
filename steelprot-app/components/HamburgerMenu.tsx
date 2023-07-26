@@ -1,52 +1,46 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import Image from "next/image";
 import { IoMenuSharp } from "react-icons/io5";
-import { FaTimes } from "react-icons/fa";
-import Link from "next/link";
 
-const HamburgerMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isClient, setIsClient] = useState(false);
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
-    setIsClient(true); // Set the isClient state to true when the component mounts on the client-side
-  }, []);
-
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
+  const toggleMenu = () => {
+    setMenuOpen((prevState) => !prevState);
   };
 
-  if (!isClient) {
-    // If the component is not yet mounted on the client-side (during server-side rendering), return null
-    return null;
-  }
-
   return (
-    <div className="lg:hidden">
-      {/* Use a div instead of a button for the container */}
-      <div onClick={handleToggle} className="text-black focus:outline-none">
-        {isOpen ? (
-          // Custom icon for the open state
-          <FaTimes className="w-6 h-6 text-neutral-700" />
-        ) : (
-          // Custom icon for the closed state (using IoMenuSharp icon)
-          <IoMenuSharp className="w-6 h-6" />
-        )}
+    <nav>
+      <div>
+        <span className="text-3xl cursor-pointer mx-2 md:hidden block" onClick={toggleMenu}>
+          <IoMenuSharp />
+        </span>
       </div>
-      {isOpen && (
-        <div className="menu-container bg-white w-3/5 absolute right-10 pt-14 flex flex-col gap-10 text-xl rounded-md shadow-md transition-opacity duration-1000">
-          <div className="menu-item">
-            <Link href="/">Home</Link>
-          </div>
-          <div className="menu-item">
-            <Link href="/about">About</Link>
-          </div>
-          <div className="menu-item">
-            <Link href="/contact">Contact</Link>
-          </div>
-        </div>
-      )}
-    </div>
+
+      <ul className={`md:flex md:items-center ${menuOpen ? "opacity-100 top-[80px]" : "opacity-0 top-[-400px]"} md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 transition-all ease-in duration-500`}>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="/" className="text-xl hover:text-cyan-500 duration-500">Naslovna</a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="/about" className="text-xl hover:text-cyan-500 duration-500">O nama</a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-xl hover:text-cyan-500 duration-500">Proizvodi</a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-xl hover:text-cyan-500 duration-500">Projekti</a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="#" className="text-xl hover:text-cyan-500 duration-500">Novosti</a>
+        </li>
+        <li className="mx-4 my-6 md:my-0">
+          <a href="/contact" className="text-xl hover:text-cyan-500 duration-500">Kontakt</a>
+        </li>
+
+        <h2 className=""></h2>
+      </ul>
+    </nav>
   );
 };
 
-export default HamburgerMenu;
+export default Navbar;

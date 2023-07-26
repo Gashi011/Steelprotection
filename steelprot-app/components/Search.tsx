@@ -6,7 +6,7 @@ const Search = () => {
   return (
 
     
-      <button className="md:hidden w-6 h-6"><HamburgerMenu /></button>
+      <div className="md:hidden w-6 h-6"><HamburgerMenu /></div>
       
     
   );
