@@ -33,7 +33,7 @@ const Project1 = () => {
         </div>
       </div>
       <div>
-        <div className="text-black text-left items-start text-lg lg:text-2xl  pt-20">
+        <div className="text-black text-left items-start text-2xl lg:text-3xl  pt-20">
           Investitor Lukić Invest d.o.o., na projektu stambeno-poslovne zgrade u
           Banja Luci, koristio je <br />
           Radmyx za hidroizolaciju temeljne ploče i Cemflex VB limove za
