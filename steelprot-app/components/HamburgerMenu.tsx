@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav>
       <div>
-        <span className="text-3xl cursor-pointer mx-2 md:hidden block" onClick={toggleMenu}>
+        <span className="text-3xl cursor-pointer mx-2 lg:hidden block" onClick={toggleMenu}>
           <IoMenuSharp />
         </span>
       </div>

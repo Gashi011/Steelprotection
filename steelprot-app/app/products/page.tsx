@@ -1,9 +1,11 @@
+'use client'
+import Carousel from '@/components/Carousel'
 import React from 'react'
 
 const Products = () => {
   return (
     <div>
-        Products
+        <Carousel />
     </div>
   )
 }

@@ -47,7 +47,7 @@ export default function About() {
       <BackgroundImage>
         <div className="sm:mx-auto">
           <div className="text-neutral-50 text-4xl xl:text-5xl font-bold text-center xl:text-left">
-          Doživotna hidroizolacija betona
+            Doživotna hidroizolacija betona
           </div>
           <div className="text-neutral-50 text-xl xl:text-2xl text-center lg:text-left">
             <br />

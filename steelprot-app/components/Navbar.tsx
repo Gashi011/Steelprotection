@@ -14,22 +14,22 @@ const Navbar = () => {
 
             <div></div>
             <div></div>
-            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+            <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
               <a href="/">Naslovna</a>
             </div>
-            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+            <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
               <a href="/about">O nama</a>
             </div>
-            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+            <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
               <a href="/products">Proizvodi</a>
             </div>
-            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+            <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
               <a href="/projects">Projekti</a>
             </div>
-            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+            <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
               <a href="/news">Novosti</a>
             </div>
-            <div className="hidden md:block text-xl lg:text-2xl hover:text-neutral-500 cursor-pointer">
+            <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
               <a href="/contact">Kontakt</a>
             </div>
             <div className="pe-10">
