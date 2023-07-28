@@ -6,10 +6,10 @@ import Search from "./Search";
 
 const Navbar = () => {
   return (
-    <div id="navbar" className="fixed w-full max-h-32 bg-white  shadow-md z-20">
+    <div id="navbar" className="fixed w-full max-h-32 bg-white  shadow-md z-50">
       <div className="p-6 border-b-2">
         <Container>
-          <div className="flex flex-row items-center justify-between gap-2 md:gap-0 xl:px-14 md:px-10  px-5">
+          <div className="flex flex-row  justify-between items-center gap-2 md:gap-0 xl:px-14 md:px-10  px-5">
             <Logo />
 
             <div></div>
@@ -21,7 +21,13 @@ const Navbar = () => {
               <a href="/about">O nama</a>
             </div>
             <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
-              <a href="/products">Proizvodi</a>
+              <div>
+                <a href="/products">
+                <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
+                  Proizvodi
+                </div>
+                </a>
+              </div>
             </div>
             <div className="hidden lg:block text-xl lg:text-2xl font-bold hover:text-neutral-500 cursor-pointer">
               <a href="/projects">Projekti</a>

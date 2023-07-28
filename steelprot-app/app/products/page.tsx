@@ -1,11 +1,14 @@
 'use client'
-import Carousel from '@/components/Carousel'
+import BackgroundImage from '@/components/BackgroundImageNaslovna'
+import CarouselProducts from '@/components/CarouselProducts'
 import React from 'react'
 
 const Products = () => {
   return (
     <div>
-        <Carousel />
+      <BackgroundImage>
+        <CarouselProducts />
+        </BackgroundImage>
     </div>
   )
 }

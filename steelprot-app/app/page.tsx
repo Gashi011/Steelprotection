@@ -17,8 +17,8 @@ export default function Home() {
             </div>
           </div>
           <div className="pt-10">
-            <button className=" bg-transparent border-white border-2 rounded-full text-white text-xl lg:text-2xl w-36 lg:w-48 h-12 lg:h-16 font-bold focus:border-black hover:bg-red-500 hover:scale-110">
-              Pošaljite uput
+            <button className=" bg-transparent border-white border-2 rounded-full text-white text-xl lg:text-2xl w-52 lg:w-60 h-12 lg:h-16 font-bold focus:border-black hover:bg-red-500 hover:scale-110">
+              Kontaktirajte nas
             </button>
           </div>
           <div className="flex flex-col lg:flex-row gap-10 pt-20">

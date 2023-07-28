@@ -42,7 +42,7 @@ const Carousel = () => {
   return (
     <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group pt-40">
       <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+        style={{ backgroundImage: `url(${slides[currentIndex].url})`, backgroundSize:"100% 100%"  }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
       >
         {/* Left Arrow */}
