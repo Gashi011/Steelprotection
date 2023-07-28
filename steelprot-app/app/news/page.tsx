@@ -28,7 +28,7 @@ const News = () => {
         </BackgroundImage>
       </div> 
         <BackgroundImage>
-        <div className="flex flex-col justify-center pt-40 xl:pt-42  gap-20">
+        <div className="flex flex-col justify-center pt-40 xl:pt-42  gap-20 text-black">
           <div className=" flex flex-row">
             <Novosti />
           </div>

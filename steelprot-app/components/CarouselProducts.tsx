@@ -56,7 +56,7 @@ const CarouselProducts = () => {
       </a>
       <div className="pb-10">
         <a href={link}>
-      <div id="saznajViseO" className="flex flex-col justify-center w-64 h-14 bg-transparent border border-white rounded-lg text-2xl  text-white items-center m-auto cursor-pointer hover:text-white hover:bg-red-500 hover:scale-110">
+      <div id="saznajViseO" className="flex flex-col justify-center w-72 h-14 bg-transparent border border-white rounded-full text-2xl  text-white items-center m-auto cursor-pointer hover:text-white hover:bg-red-500 hover:scale-110">
         Saznaj više o {carouselText}
       </div>
       </a>
