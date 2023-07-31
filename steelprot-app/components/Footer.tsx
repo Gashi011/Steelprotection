@@ -24,7 +24,7 @@ const Footer = () => {
                 Ulica TaITa broj 2, 11000 Beograd, <br />
                 Srbija
               </p>
-              <p>Mail: info@steelprotection.rs</p>
+              <a href="mailto:info@steelprotection.rs"><p>Mail: info@steelprotection.rs</p></a>
               <p>Tel: +381 63 111 1111</p>
             </div>
           </div>

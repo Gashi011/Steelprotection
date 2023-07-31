@@ -35,7 +35,7 @@ const Kontact = () => {
             </p>
           </div>
         </div>
-        <div className="w-4/5 sm:w-2/3 lg:w-1/2 mx-auto  h-[860px] bg-neutral-200 shadow-inner">
+        <div className="w-4/5 sm:w-2/3 lg:w-1/2 mx-auto  h-[950px] bg-neutral-200 shadow-inner">
           <ContactForms />
         </div>
       </div>
