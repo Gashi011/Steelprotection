@@ -12,7 +12,7 @@ const Radmyx = () => {
           </div>
           <div className="flex flex-col lg:flex-row px-20 text-center lg:text-left pt-20 gap-14">
             <div className="flex flex-col gap-10">
-              <div className="text-white text-4xl font-bold">
+              <div className="text-white text-4xl font-bold text-center">
                 Opis proizvoda
               </div>
               <div className="text-white text-2xl">
@@ -36,7 +36,7 @@ const Radmyx = () => {
               </div>
             </div>
             <div className="flex flex-col gap-10">
-              <div className="text-white text-4xl font-bold">DOZIRANJE</div>
+              <div className="text-white text-4xl font-bold text-center">DOZIRANJE</div>
               <div className="flex flex-col gap-1 text-white text-2xl">
                 <div>
                   U suhu ili svježu smjesu betona dodaje se 0,78 kg
